@@ -1,1 +1,1 @@
-# manifest
+Android manifest for Lucid
