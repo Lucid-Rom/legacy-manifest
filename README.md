@@ -1,4 +1,4 @@
-Lucid Project Manifest
+# Lucid Project Manifest
 
 To initialize your local repository
 ```
