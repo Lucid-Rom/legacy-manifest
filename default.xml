@@ -9,7 +9,7 @@
            fetch="https://bitbucket.org/" />
   <default revision="refs/tags/android-5.1.1_r2"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 
   <project path="build" name="Lucid-Rom/android_build" remote="gh" revision="lucid-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -396,7 +396,7 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" remote="gh" revision="lucid-5.1" />
+  <project path="packages/services/Telephony" name="Lucid-Rom/packages_services_Telephony" remote="gh" revision="lucid-5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -453,6 +453,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/moto/shamu" name="Lucid-Rom/vendor_moto_shamu" remote="gh" revision="lucid-5.1" />
-  <project path="vendor/lucid" name="Lucid-Rom/vendor_lucid" remote="gh" revision="lucid-5.1" />
+  <project path="vendor/lucid" name="Lucid-Rom/android_vendor_lucid" remote="gh" revision="lucid-5.1" />
   
 </manifest>
