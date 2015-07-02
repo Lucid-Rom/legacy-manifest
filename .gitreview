@@ -1,5 +1,5 @@
 [gerrit]
-host=gerrit.lucidroms.org
+host=review.gerrithub.io
 port=29418
-project=manifest.git
+project=Lucid-Rom/manifest.git
 defaultbranch=lucid-5.1
